@@ -1,0 +1,6 @@
+flask
+pdfplumber
+pandas
+numpy
+matplotlib
+gunicorn
