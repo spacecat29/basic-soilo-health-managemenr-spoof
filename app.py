@@ -100,13 +100,13 @@ def upload_file():
         is_construction_suitable = bearing_capacity >= 100
 
         if is_farming_suitable and is_construction_suitable:
-            result = f"✅ {soil_type} is suitable for both Farming & Construction"
+            result = f" {soil_type} is suitable for both Farming & Construction"
         elif is_farming_suitable:
-            result = f"🌱 {soil_type} is more suitable for Farming"
+            result = f" {soil_type} is more suitable for Farming"
         elif is_construction_suitable:
-            result = f"🏗️ {soil_type} is more suitable for Construction"
+            result = f" {soil_type} is more suitable for Construction"
         else:
-            result = f"❌ {soil_type} is not ideal for Farming or Construction"
+            result = f" {soil_type} is not ideal for Farming or Construction"
         
         suitability_results.append(result)
 
