@@ -104,7 +104,7 @@ def upload_file():
         elif is_farming_suitable:
             result = f" {soil_type} is more suitable for Farming"
         elif is_construction_suitable:
-            result = f" {soil_type} is more suitable for Construction"
+            result = f" {soil_type} is more suitable for Farming and Lesser Construction"
         else:
             result = f" {soil_type} is not ideal for Farming or Construction"
         
@@ -114,4 +114,5 @@ def upload_file():
 
 # ✅ Run Flask App
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) 
+
